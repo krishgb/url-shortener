@@ -1,0 +1,54 @@
+:root {
+  --b: rgba(0, 0, 0, 1);
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--b);
+  color: white;
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  justify-content: center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+input {
+  border: 1px solid white;
+  background-color: var(--b);
+  color: white;
+  padding: 6px 9px;
+}
+
+button {
+  margin-left: 2px;
+  border: 1px solid white;
+  background-color: var(--b);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  color: var(--b);
+  background-color: #fff;
+}
+
+table {
+  text-align: left;
+  margin-top: 50px;
+}
+
+a {
+  font-size: 1rem;
+  color: aqua;
+  text-decoration: none;
+  text-align: left;
+}
+
+a:hover {
+  font-size: 1.1rem;
+  color: aquamarine;
+}
